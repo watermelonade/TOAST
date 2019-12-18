@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="ChapterNumber"
+    Comment=""
+    EvaluatedDefinition="1">[%=System.ChapterNumber%]</Variable>
+  <Variable
+    Name="GlossaryTitle"
+    Comment=""
+    EvaluatedDefinition="Glossary">[%=System.GlossaryTitle%]</Variable>
+  <Variable
+    Name="Title"
+    Comment=""
+    EvaluatedDefinition="[[[Undefined variable System.Title]]]">[%=System.Title%]</Variable>
+  <Variable
+    Name="SourceFile"
+    Comment=""
+    EvaluatedDefinition="[[[Undefined variable System.SourceFile]]]">[%=System.SourceFile%]</Variable>
+  <Variable
+    Name="ShortTime"
+    Comment=""
+    EvaluatedDefinition="8:58 AM">[%=System.ShortTime%]</Variable>
+  <Variable
+    Name="ShortDate"
+    Comment=""
+    EvaluatedDefinition="11/1/2019">[%=System.ShortDate%]</Variable>
+  <Variable
+    Name="SectionNumber"
+    Comment=""
+    EvaluatedDefinition="1">[%=System.SectionNumber%]</Variable>
+  <Variable
+    Name="PageNumber"
+    Comment=""
+    EvaluatedDefinition="1">[%=System.PageNumber%]</Variable>
+  <Variable
+    Name="PageCount"
+    Comment=""
+    EvaluatedDefinition="1">[%=System.PageCount%]</Variable>
+  <Variable
+    Name="LongTime"
+    Comment=""
+    EvaluatedDefinition="8:57:41 AM">[%=System.LongTime%]</Variable>
+  <Variable
+    Name="LongDate"
+    Comment=""
+    EvaluatedDefinition="Friday, November 1, 2019">[%=System.LongDate%]</Variable>
+  <Variable
+    Name="VolumeNumber"
+    Comment=""
+    EvaluatedDefinition="1">[%=System.VolumeNumber%]</Variable>
+</CatapultVariableSet>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+    <Variable Name="MonthDayYear" Comment="" Type="DateTime" LastUpdated="2019-11-01T09:01:11.6511397-07:00" EvaluatedDefinition="MMMM dd, yyyy">MMMM dd, yyyy</Variable>
+    <Variable Name="HourMinuteSecond" Comment="" Type="DateTime" LastUpdated="2019-11-01T09:02:08.3885624-07:00" EvaluatedDefinition="hh:mm:ss tt">hh:mm:ss tt</Variable>
+    <Variable Name="DayMonthDateYear2" Comment="" Type="DateTime" LastUpdated="2019-11-01T09:02:11.3874307-07:00" EvaluatedDefinition="dddd mmmm dd, yyyy">dddd mmmm dd, yyyy</Variable>
+    <Variable Name="DayMonthDateYear" Comment="" Type="DateTime" LastUpdated="2019-11-01T09:02:11.5686545-07:00" EvaluatedDefinition="ddd MM/dd/yy">ddd MM/dd/yy</Variable>
+    <Variable Name="FridayNov120192" Comment="" EvaluatedDefinition="[[[Undefined variable DateTimeVariable.Day Month Date, Year]]]">[%=DateTimeVariable.Day Month Date, Year%]</Variable>
+    <Variable Name="FridayNov12019" Comment="" EvaluatedDefinition="Fri 11/01/19">[%=DateTimeVariable.Day Month/Date/Year%]</Variable>
+    <Variable Name="92130" Comment="" EvaluatedDefinition="09:21:55 AM">[%=DateTimeVariable.Hour:Minute:Second%]</Variable>
+    <Variable Name="NovFriday2019" Comment="" EvaluatedDefinition="November 01, 2019">[%=DateTimeVariable.MonthDayYear%]</Variable>
+</CatapultVariableSet>
